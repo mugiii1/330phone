@@ -17880,3 +17880,30 @@ body.frame-mode-active .cphone-dock-container {
     background-color: rgba(255, 255, 255, 0.15) !important; /* 深色下的半透明白 */
     color: #8d8d92 !important; /* 浅灰字 */
 }
+
+/* ===== 去掉按钮蓝色块 ===== */
+
+button,
+input,
+textarea,
+a,
+div {
+  outline: none;
+}
+
+button:focus,
+input:focus,
+textarea:focus,
+a:focus,
+div:focus {
+  outline: none;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:active {
+  transform: scale(0.97);
+  opacity: 0.85;
+}
